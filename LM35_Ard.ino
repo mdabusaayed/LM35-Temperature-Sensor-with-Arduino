@@ -14,6 +14,7 @@ reading = analogRead(tempPin);
 tempC = reading / 9.31;
 Serial.print("temperature: ");
 Serial.print(tempC);
+Serial.print("°C");
 Serial.println();
 delay(1000);
 }
